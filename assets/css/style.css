@@ -3,8 +3,14 @@
     padding: 0%;
 }
 
+.bar{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
 .content {
-    margin-top: 5%;
+    margin-top: 5px;
     margin-left: 110px;
     margin-right: 50px;
 
@@ -41,6 +47,7 @@
     margin: 4px;
     text-align: center;
     color: white;
+    margin-top: 7px;
     margin-bottom: 7px;
 }
 
