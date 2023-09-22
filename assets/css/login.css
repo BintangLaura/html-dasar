@@ -84,3 +84,172 @@
     width: 380px;
     height: 30px;
 }
+
+
+@media screen and (max-width: 990px){
+    .container{
+        width: 780px;
+        height: 1500px;
+    }
+    .judul img{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .judul h1{
+        font-size: 35pt;
+    }
+
+    .kotak-login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kolom-uspas{
+        border: transparent;
+        font-size: 25pt;
+        width: 700px;
+    }
+
+    .form_login_user {
+        box-sizing: border-box;
+        width: 680px;
+        font-size: 20pt;
+    }
+    
+    .form_login_pass {
+        box-sizing: border-box;
+        width: 680px;
+        font-size: 20pt;
+    }
+
+    .ingat{
+        width: 700px;
+    }
+    
+    .ingat a{
+        padding-left: 200px;
+    }
+    
+    .form_tombol1{
+        width: 700px;
+        height: 40px;
+        font-size: 23pt;
+    }
+    
+    .kolom-video video{
+        width: 730px;
+        height: 450px;
+        margin: 250px 23px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 600px;
+        height: 1000px;
+    }
+    
+    .container .judul{
+        width: 600px;
+    }
+    
+    .judul img{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .kotak-login{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .kolom-uspas{
+        border: transparent;
+        font-size: 20pt;
+    }
+    
+    .form_login_user {
+        box-sizing: border-box;
+        width: 550px;
+        font-size: 15pt;
+    }
+    
+    .form_login_pass {
+        box-sizing: border-box;
+        width: 550px;
+        font-size: 15pt;
+    }
+    
+    .ingat{
+        width: 550px;
+    }
+    
+    .ingat a{
+        padding-left: 170px;
+    }
+    
+    .form_tombol1{
+        width: 550px;
+        height: 30px;
+        font-size: 17pt;
+    }
+    
+    .kolom-video video{
+        width: 550px;
+        height: 300px;
+        margin: 90px 23px;
+    }
+    
+}
+
+@media screen and (max-width: 428px){
+    .container{
+        width: 350px;
+        height: 1000px;
+    }
+
+    .container .judul{
+        width: 350px;
+    }
+
+    .kotak-login{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_login_user {
+        box-sizing: border-box;
+        width: 300px;
+    }
+
+    .form_login_pass {
+        box-sizing: border-box;
+        width: 300px;
+    }
+    
+    .ingat{
+        width: 300px;
+        font-size: 15pt;
+    }
+
+    .ingat a{
+        padding-left: 20px;
+        
+    }
+
+    .form_tombol1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .kolom-video video{
+        width: 300px;
+        margin: 50px 23px;
+    }
+}
